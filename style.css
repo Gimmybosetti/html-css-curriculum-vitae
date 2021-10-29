@@ -4,6 +4,23 @@ body {
 
 header {
     text-align: center;
-    border-bottom: 2px solid #cc8d08;
+    border-bottom: 3px solid #cc8d08;
 }
 
+main {
+    margin: 0 0 0 2%;
+    text-align: justify;
+}
+
+h2 {
+    color: #cc8d08;
+}
+
+h3 {
+    font-style: italic;
+}
+
+footer {
+    border-top: 2px solid #cc8d08;
+    text-align: center;
+}
