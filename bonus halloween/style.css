@@ -1,0 +1,86 @@
+body {
+    margin: 0 20% 0 20%;
+    background-image: url('./img/skeleton.jpg');
+    background-size: cover;
+    font-family: fantasy;
+}
+
+h1 {
+    color: red;
+    font-size: 3.8em;
+    padding: 10px;
+    margin-bottom: -10px;
+    border: 2px solid red;
+}
+
+h2 {
+    color: red;
+    font-size: 1.8em;
+}
+
+.center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 2em;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid red;
+    border-style: outset;
+    padding: 25px;
+}
+
+footer {
+    color: red;
+}
+
+#spunta {
+    margin-top: 11px;
+}
+
+#blood-drop {
+    font-size: 1.8em;
+}
+
+#invia {
+    margin-top: 45px;
+    margin-left: 37%;
+}
+
+#red {
+    color: red;
+    text-align: justify;
+}
+
+#blood-drop {
+    letter-spacing: 0.3em;
+}
+
+#condizioni {
+    color: red;
+}
+
+#textarea {
+    margin-bottom: 130px;
+}
+
+#left {
+    float: left;
+    margin-right: 0px;
+}
+
+#box-condizioni {
+    background-color: rgb(39, 39, 39);
+    padding: 5px;
+}
+
+.right {
+    float: right;
+}
