@@ -41,10 +41,6 @@ footer {
     color: red;
 }
 
-#spunta {
-    margin-top: 11px;
-}
-
 #blood-drop {
     font-size: 1.8em;
 }
@@ -54,17 +50,17 @@ footer {
     margin-left: 37%;
 }
 
-#red {
+.red {
     color: red;
+}
+
+.justify {
     text-align: justify;
 }
 
 #blood-drop {
-    letter-spacing: 0.3em;
-}
-
-#condizioni {
-    color: red;
+    letter-spacing: 1em;
+    margin-left: 9%;
 }
 
 #textarea {

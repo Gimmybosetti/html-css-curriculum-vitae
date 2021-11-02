@@ -11,7 +11,7 @@
     <header>
         <h1 class="center"><span>Halloween, party da paura! &#128123;</span></h1>
         <h2 class="center underline">🎃&nbsp; Vieni alla festa più paurosa della città se ne hai il coraggio!&nbsp;   🎃</h2>
-        <p id="red">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        <p class="red justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
@@ -24,29 +24,29 @@
         <form>
             <div>
                 <label for="nome">Nome e cognome:</label>
-                <input type="text" name="nome" placeholder="Mario Rossi" class="right" required><br>
+                <input type="text" name="nome" id="nome" placeholder="Mario Rossi" class="right" required><br>
                 <label for="email">La tua email:</label>
-                <input type="email" name="email" placeholder="mariorossi@gmail.com" class="right" required><br>
+                <input type="email" name="email" id="email" placeholder="mariorossi@gmail.com" class="right" required><br>
                 <label for="telefono">Numero di telefono:</label>
-                <input type="tel" name="telefono" placeholder="349 3456789123" class="right" pattern="[0-9]{3}-[0-9]{7}" required><br>
+                <input type="tel" name="telefono" id="telefono" placeholder="349 3456789123" class="right" pattern="[0-9]{3}-[0-9]{7}" required><br>
             </div>
             <div>
                 <label for="orario">A che ora arriverai?</label>
-                <input type="time" name="orario" class="right" ><br>
+                <input type="time" name="orario" id="orario" class="right" ><br>
                 <label for="amici">Qaunti amici porterai?</label>
-                <input type="number" name="amici" placeholder="1" min="1" max="5" class="right" ><br>
+                <input type="number" name="amici" id="amici" placeholder="1" min="1" max="5" class="right" ><br>
                 <label for="nomeamici">Nome degli amici:</label>
-                <input type="text" name="nomeamici" placeholder="Amico1, Amico2..." class="right" required><br>
+                <input type="text" name="nomeamici" id="nomeamici" placeholder="Amico1, Amico2..." class="right" required><br>
             </div>
             <div>
                 <p class="center">Come ci hai trovati?</p>
-                <input type="radio" name="saputo-tramite" value="instagram" checked>
+                <input type="radio" id="instagram" name="saputo-tramite" value="instagram" checked>
                 <label for="instagram">Instagram</label>
-                <input type="radio" name="saputo-tramite" value="facebook">
+                <input type="radio" id="facebook" name="saputo-tramite" value="facebook">
                 <label for="facebook">Facebok</label>
-                <input type="radio" name="saputo-tramite" value="amici">
-                <label for="amici">Amici/Passaparola</label>
-                <input type="radio" name="saputo-tramite" value="altro">
+                <input type="radio" id="amiciportati" name="saputo-tramite" value="amici">
+                <label for="amiciportati">Amici/Passaparola</label>
+                <input type="radio" id="altro" name="saputo-tramite" value="altro">
                 <label for="altro">Altro</label>
             </div><br>
             <div id="textarea">
@@ -56,20 +56,20 @@
                 </div>
                 <div class="right">
                     <label for="paura">Di cosa hai paura?</label><br>
-                    <textarea id="paura" for="paura" rows="3" cols="25">Inidca qua al massimo 3 delle tue paure</textarea>
+                    <textarea id="paura" rows="3" cols="25">Inidca qua al massimo 3 delle tue paure</textarea>
                 </div>
             </div>
             <div id="box-condizioni">
                 <label for="condizioni">Acetta le condizioni per partecipare</label>
-                <input type="checkbox" id="spunta" name="condizioni" class="right" required>
+                <input type="checkbox" id="condizioni" name="condizioni" class="right red" required>
             </div>
             <input type="submit" id="invia" value="Vengo alla festa!">
         </form>
     </main>
 
-    <span class="center" id="blood-drop"><p>🩸&nbsp;&nbsp;&nbsp;&nbsp;🩸&nbsp;&nbsp;&nbsp;&nbsp;🩸&nbsp;&nbsp;&nbsp;&nbsp;🩸&nbsp;&nbsp;&nbsp;&nbsp;🩸&nbsp;&nbsp;&nbsp;&nbsp;🩸&nbsp;&nbsp;&nbsp;&nbsp;🩸&nbsp;&nbsp;&nbsp;&nbsp;🩸</p></span>
+    <span class="center" id="blood-drop">🩸 🩸 🩸 🩸 🩸 🩸 🩸 🩸</span>
 
-    <footer class="center">
+    <footer class="center red">
         <p>Spooky Scary Skeletons S.r.l.</p>
         <p>Secret Location</p>
     </footer>
